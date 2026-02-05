@@ -33,7 +33,7 @@ flowchart
 ```mermaid
 flowchart
 A[文件上传成功]-->B[获取文件ID（VID）]
-C[调用媒资接口<br>【获取课程下文件列表】
+C[调用媒资接口<br>【<a href='https://docs.apipost.net/docs/detail/3d789fea9001000?target_id=1bcd9cfd7d50a3'>获取课程下文件列表</a>】
 ]-->B[获取文件ID,即VID]
 B-->D[集成媒资播放器<br><a href="https://github.com/hey-future/player/tree/master/vue">请查阅集成文档<a>]
 E[前置条件<br><font color="red">1、向媒资人员索要appId<br>2、提供业务域名给媒资人员进行授权</font>]-->D
