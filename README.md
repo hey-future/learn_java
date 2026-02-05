@@ -35,8 +35,8 @@ flowchart
 A[文件上传成功]-->B[获取文件ID（VID）]
 C[调用媒资接口<br>【获取课程下文件列表】
 ]-->B[获取文件ID,即VID]
-B-->D[集成媒资播放器，<a href="https://github.com/hey-future/player/tree/master/vue">请查阅集成文档<a>]
-E[前置条件<br>1、向媒资人员索要appId<br>2、提供业务域名给媒资人员进行授权]-->D
+B-->D[集成媒资播放器<br><a href="https://github.com/hey-future/player/tree/master/vue">请查阅集成文档<a>]
+E[前置条件<br><font color="red">1、向媒资人员索要appId<br>2、提供业务域名给媒资人员进行授权</font>]-->D
 
 ```
 
